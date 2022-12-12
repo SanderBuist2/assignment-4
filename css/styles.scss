@@ -1,0 +1,29 @@
+body{
+    background-color: darkslategray;
+}
+
+.title{
+    text-align: center;
+}
+
+.filter_box{
+    display: flex;
+    justify-content: space-evenly;
+    height: 20px;
+    margin: 20px;
+}
+
+.filmlinks{
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    justify-content: space-around;
+    gap: 10px;
+}
+
+.checkradio
+{
+    width: 100px;
+    background-color: green;
+    text-align: center;
+    cursor: pointer;
+}
